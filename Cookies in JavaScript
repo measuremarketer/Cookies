@@ -6,3 +6,5 @@ function setCookie(cookieName, cookieValue, numberOfDays) {
   document.cookie = cookieName + "=" + cookieValue + ";" + expiryDate + ";path=/");
 }
 setCookie("prashanth", "33", "30");
+
+// https://www.tutorialrepublic.com/javascript-tutorial/javascript-cookies.php
