@@ -1,0 +1,8 @@
+
+function setCookie(cookieName, cookieValue, numberOfDays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (60*24*60*60*1000)); // cookie for 60 days, as passed in the function
+  var expiryDate = "expires="+ d.toUTCString();
+  document.cookie = cookieName + "=" + cookieValue + ";" + expiryDate + ";path=/");
+}
+setCookie("prashanth", "33", "30");
